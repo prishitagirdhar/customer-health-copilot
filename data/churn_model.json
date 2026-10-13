@@ -1,0 +1,49 @@
+{
+  "note": "SIMULATED training labels. Logistic regression exported from ml/train_churn.py.",
+  "features": [
+    "seat_adoption",
+    "usage_change_pct",
+    "open_tickets",
+    "nps",
+    "plan_growth",
+    "plan_enterprise",
+    "days_to_renewal",
+    "account_age_days",
+    "negative_feedback_share"
+  ],
+  "mean": [
+    70.966973,
+    -1.93361,
+    2.173333,
+    25.850667,
+    0.376,
+    0.168,
+    198.365333,
+    443.061333,
+    0.268
+  ],
+  "scale": [
+    22.778144,
+    17.698745,
+    1.810881,
+    39.620117,
+    0.48438,
+    0.373866,
+    101.301648,
+    262.754646,
+    0.418053
+  ],
+  "coefficients": [
+    -0.097087,
+    -0.439809,
+    0.681884,
+    -0.230537,
+    -0.275346,
+    -0.151162,
+    -0.254079,
+    -0.219778,
+    0.529362
+  ],
+  "intercept": -1.735921,
+  "auc": 0.8039
+}
